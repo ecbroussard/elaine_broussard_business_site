@@ -11,20 +11,15 @@
 <body>
 	<div class="container"> <!-- Begin Container Div -->
 		<header class="row">
-			<div class="twelve columns">
-				<h1><a href="<?php $url = home_url('/'); echo $url; ?>">	
-				<?php bloginfo('name'); ?>
-				</a></h1>
-	    		<h2><?php bloginfo('description'); ?></h2>
+			<div id="slickslogo" class="four columns">
+				<img src="wp-content/uploads/2016/12/slickslogo.png" alt="Slick's Auto Body logo" title="Slick's Auto Body" width="194">
 	    	</div>
-		</header>
-		<div class="row">
-			<div class="twelve columns">
-				<?php 
+	    	<nav class="eight columns">
+					<?php 
 					wp_nav_menu(array(
 						'sort_column' => 'menu_order', 
 						'container_class' => 'blank-menu-header'
-					));
+					));0
 				?>
-			</div>
-		</div>
+			</nav>
+		</header>

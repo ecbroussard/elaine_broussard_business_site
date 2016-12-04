@@ -1,0 +1,10 @@
+<?php get_header(); ?>
+
+<!-- Begin Section Container -->
+	<section class="row">
+		<div class="twelve columns">
+		</div>
+	</section>
+<!-- End Section Container-->
+
+<?php get_footer(); ?>

@@ -10,15 +10,16 @@ Text Domain: elaine_broussard_business_site
 
 @import url("stylesheets/normalize.css");
 @import url("stylesheets/skeleton.css");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Kavoon');
+
 
 html, body {
-    color: #000000;
-    font-size: 14px;
-    line-height: 1.5em;
+	font-family: 'Open Sans', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	color: #999999;
 	font-weight: 700;
 }
 
@@ -43,33 +44,37 @@ h5 {
 }
 
 a {
-	color: red;
 	font-weight: 700;
 	text-decoration: none;
 }
 
-/*--- Menu --- */
+header {
+	border: solid black 1px;
+	padding: 1em;
+}
 
-.blank-menu-header {
-	text-align: left;
-	margin-top: 40px;
+nav ul {
+	list-style-type: none;
+	margin-top: 1em;
 }
-.blank-menu-header ul {
-	margin: 0; 
-	padding: 0; 
-	list-style-type: none; 
-	list-style-image: none; 
-}
-.blank-menu-header li {
+
+nav ul li {
 	display: inline;
+	padding: 1em;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.7rem;
+	text-transform: uppercase;
 }
-.blank-menu-header ul li a {
-	text-decoration:none;  
-	margin: 4px;
-	padding: 5px 0px 5px 40px; 
-	font-weight: 300;
-	font-size: 1.1rem;
+
+nav ul li a {
+	color: black;
 }
-.blank-menu-header ul li a:hover {
-	color: #cccccc;
+
+nav ul li a:hover {
+	color: #00adef;
+}
+
+#slickslogo img {
+	margin-left: 25%;
+	margin-top: .5em;
 }
