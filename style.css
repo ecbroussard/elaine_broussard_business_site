@@ -426,3 +426,25 @@ footer a:hover {
 .archive-wrapper a:hover {
 	color: #00adef;
 }
+
+.post-page {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.post-page img {
+	margin-bottom: 3em;
+}
+
+.post-page h2 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.3em;
+	letter-spacing: .2px;
+	text-align: center;
+	margin-top: .5em;
+	margin-bottom: .75em;
+}
+
+.errorcontainer {
+	margin-top: 3em;
+}
