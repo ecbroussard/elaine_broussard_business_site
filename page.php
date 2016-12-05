@@ -1,8 +1,9 @@
 <?php get_header(); ?>
 
 <!-- Begin Section Container -->
+<div class="container">
 	<section class="row">
-		<div class="eight columns">
+		<div class="eight columns page-content">
 			<!-- Begin Loop -->
 			<?php
 				if ( have_posts() ) {
@@ -20,6 +21,7 @@
 			<?php get_sidebar(); ?>
 		</div>
 	</section>
+</div>
 <!-- End Section Container-->
 
 <?php get_footer(); ?>

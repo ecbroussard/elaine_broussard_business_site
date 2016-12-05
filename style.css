@@ -233,10 +233,12 @@ input[type=submit] {
 	background-color: #d93029;
 	font-weight: 400;
 	float: right;
+	margin-bottom: 2.5em;
+	margin-top: 1em;
 }
 
 input[type=submit]:hover {
-
+	color: #00adef;
 }
 
 footer {
@@ -272,4 +274,105 @@ footer a:hover {
 .textwidget li {
 	display: inline;
 	padding-right: 1em;
+}
+
+.post-title {
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.3em;
+	letter-spacing: .2px;
+	text-align: center;
+	margin-top: .5em;
+	margin-bottom: .75em;
+}
+
+.post-title a {
+	color: black;
+}
+
+.post-title a:hover {
+	color: #d93029;
+}
+
+.widget-sidebar {
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+}
+
+.sidebar-content {
+	border: 1px solid black;
+	margin-top: 3em;
+	margin-bottom: 3em;
+	background-color: #aae0fa;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+}
+
+.post-frame {
+	margin-top: 3em;
+	margin-bottom: 7em;
+	border-top: 1px solid black;
+}
+
+.sidebar-content h2 {
+	text-align: center;
+	font-family: 'Kavoon', cursive;
+	color: #d93029;
+	text-shadow: 2px 2px black;
+	letter-spacing: 1px;
+	font-size: 2.2em;
+
+}
+
+.sidebar-content ul {
+	list-style-type: none;
+}
+
+.sidebar-content a {
+	color: black;
+}
+
+.sidebar-content a:hover {
+	color: #d93029;
+}
+
+.tags a {
+	font-family: 'Kavoon', cursive;
+	color: #d93029;
+	padding: .5em;	
+}
+
+.tags a:hover {
+	color: #00adef;
+}
+
+.morebutton {
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	background-color: #d93029;
+	text-transform: uppercase;
+	display: table;
+	border: solid 1px black;
+	padding: .5em;
+	float: right;
+}
+
+.post-frame img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2em;
+}
+
+.pagination a {
+	display: inline-block;
+	font-family: 'Oswald', sans-serif;
+	color: black;
+	background-color: #aae0fa;
+	padding: .5em;
+	margin-bottom: 1em;
+	border: .1em solid black;
+}
+
+.pagination a:hover {
+	color: #d93029;
 }
