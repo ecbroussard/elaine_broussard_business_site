@@ -399,3 +399,11 @@ footer a:hover {
 .wp-caption-text {
 	font-family: 'Oswald', sans-serif;	
 }
+
+#contactpageform {
+	margin-top: 3em;
+}
+
+#contactpageform input {
+	display: block;
+}
