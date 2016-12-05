@@ -53,19 +53,30 @@ a {
 
 header {
 	border: solid black 1px;
-	padding: 1em;
+	padding-bottom: 1em;
+	padding-top: 1em;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.my-slider {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
 }
 
 nav ul {
 	list-style-type: none;
-	margin-top: 1em;
+	margin-top: 1.2em;
 }
 
 nav ul li {
 	display: inline;
 	padding: 1em;
 	font-family: 'Oswald', sans-serif;
-	font-size: 1.7rem;
+	font-size: 2.3rem;
 	text-transform: uppercase;
 }
 
@@ -99,6 +110,14 @@ img {
 	background-image: url(images/promo3.jpg);
 }
 
+#promo1 a, #promo2 a, #promo3 a, .calltoaction a {
+	color: white;
+}
+
+#promo1 a:hover, #promo2 a:hover, #promo3 a:hover, .calltoaction a:hover {
+	color: #00adef;
+}
+
 #sliderpromo h1 {
 	font-family: 'Kavoon', cursive;
 	color: white;
@@ -125,6 +144,7 @@ img {
 	margin-left: 3.2em;
 	display: table;
 	border: 1px solid #d93029;
+	font-style: italic;
 }
 
 #sliderpromo h3 {
@@ -149,6 +169,7 @@ img {
 	display: table;
 	border: solid 1px black;
 	padding: .5em;
+	float: right;
 }
 
 #frontpage-middle {
@@ -163,4 +184,57 @@ img {
 #frontpage-middle h1 {
 	font-size: 1.7em;
 	letter-spacing: .2px;
+}
+
+#quoteform {
+	background-color: #aae0fa;
+	border: solid 1px black;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#quoteform h1 {
+	text-transform: uppercase;
+	font-size: 3.5em;
+	margin-left: 2em;
+	margin-top: 2em;
+}
+
+input, label {
+	display: inline;
+}
+
+input {
+	margin-bottom: 2em;
+	margin-right: 1em;
+}
+
+form {
+	margin-top: 3em;
+	width: 80%;
+}
+
+label {
+	margin-right: .3em;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
+
+textarea, input[type=text], input[type=submit] {
+	border: 1px solid black;
+	border-radius: 0px;
+}
+
+input[type=submit] {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	color: white;
+	background-color: #d93029;
+	font-weight: 400;
+	float: right;
+}
+
+input[type=submit]:hover {
+	color: #00adef;
 }
