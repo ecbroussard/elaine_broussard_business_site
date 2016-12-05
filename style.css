@@ -376,3 +376,26 @@ footer a:hover {
 .pagination a:hover {
 	color: #d93029;
 }
+
+.pagetitle {
+	text-align: center;
+	font-family: 'Kavoon', cursive;
+	color: black;
+	letter-spacing: 1px;
+	font-size: 4em;
+	margin-top: 1em;
+}
+
+.page-content h3 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.3rem;
+	text-transform: uppercase;
+}
+
+.page-content {
+	margin-bottom: 1.5em;
+}
+
+.wp-caption-text {
+	font-family: 'Oswald', sans-serif;	
+}
