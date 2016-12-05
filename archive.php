@@ -2,9 +2,10 @@
 /* Template Name: Archive Page */
 
 get_header(); ?>
+<div class="container">
 <div class="archive-wrapper">	
 	<div class="row">
-		<div class="twelve columns archive-page">
+		<div class="eight columns archive-page">
 			<?php if ( have_posts() ) : ?>
 				<h2>Archives</h2>
 				<?php
@@ -18,9 +19,7 @@ get_header(); ?>
 				<p>Sorry, no posts matched your criteria.</p>
 			<?php endif; ?>
 		</div>
-	</div>
-	<div class="row">
-		<div class="twelve columns archive-page">
+		<div class="four columns archive-page">
 			<h2>Archives by Month:</h2>
 			<ul>
 				<?php wp_get_archives('type=monthly'); ?>
@@ -31,5 +30,6 @@ get_header(); ?>
 			</ul>
 		</div>
 	</div>
+</div>
 </div>
 <?php get_footer(); ?>
