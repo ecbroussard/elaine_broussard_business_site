@@ -50,7 +50,7 @@
 				<h1>Get A Free Quote</h1>
 			</div>
 			<div class="eight columns">
-				<form method="post" action="contact-form.php">
+				<form method="post" action="http://www.elainebroussard.com/slicksautobody/wp-content/themes/elaine_broussard_business_site/contact-form.php">
 						<label for="Name">Name:</label>
 						<input type="text" name="Name" id="Name" />
 						<label for="Car">Car Make/Model:</label>

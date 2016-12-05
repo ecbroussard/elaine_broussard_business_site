@@ -1,20 +1,20 @@
 
-	<div class="container">	
 		<footer class="row">
-			<div class="three columns">
-				<?php dynamic_sidebar('footer-one'); ?>
-			</div>
-			<div class="three columns">
-				<?php dynamic_sidebar('footer-two'); ?>
-			</div>
-			<div class="three columns">
-				<?php dynamic_sidebar('footer-three'); ?>
-			</div>
-			<div class="three columns">
-				<?php dynamic_sidebar('footer-four'); ?>
+			<div class="container">
+				<div id="footerone" class="three columns">
+					<?php dynamic_sidebar('footer-one'); ?>
+				</div>
+				<div id="footertwo" class="three columns">
+					<?php dynamic_sidebar('footer-two'); ?>
+				</div>
+				<div id="footerthree" class="three columns">
+					<?php dynamic_sidebar('footer-three'); ?>
+				</div>
+				<div id="footerfour" class="three columns">
+					<?php dynamic_sidebar('footer-four'); ?>
+				</div>
 			</div>
 		</footer>
-	</div> <!-- End Container Div -->
 	<?php wp_footer(); ?>
 	<!-- Begin Unslider Initiator -->    
 	<script>
