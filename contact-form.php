@@ -30,7 +30,7 @@ if ($success){
   print "<meta http-equiv=\"refresh\" content=\"0;URL=thank-you.php\">";
 }
 else {
-  print "<meta http-equiv=\"refresh\" content=\"0;URL=error.html\">";
+  print "<meta http-equiv=\"refresh\" content=\"0;URL=404.php\">";
 }
 
 ?>
