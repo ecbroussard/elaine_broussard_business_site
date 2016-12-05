@@ -12,5 +12,14 @@
 		</footer>
 	</div> <!-- End Container Div -->
 	<?php wp_footer(); ?>
+	<!-- Begin Unslider Initiator -->    
+	<script>
+	    $(function() { $('.my-slider').unslider({
+	        autoplay: true,
+	        arrows: false
+	        });
+	    });
+	</script>
+	<!-- End Unslider Initiator -->
 </body>
 </html>

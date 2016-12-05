@@ -2,10 +2,40 @@
 /*-------------- Enable Widgets--------------- */
 
 function blank_widgets_init() {
-	/*-- Sidebar Widget --*/
+	/*-- First Sidebar Widget --*/
 	register_sidebar( array(
 		'name' 			=> ('First Widget'),
 		'id' 			=> 'first-widget',
+		'description' 	=> 'Widget for our sidebar on pages', 
+		'before_widget' => '<div class="widget-sidebar">', 
+		'after_widget' 	=> '</div>',
+		'before_title' 	=> '<h2>',
+		'after_title' 	=> '</h2>'						
+		));
+	/*-- Second Sidebar Widget --*/
+	register_sidebar( array(
+		'name' 			=> ('Second Widget'),
+		'id' 			=> 'second-widget',
+		'description' 	=> 'Widget for our sidebar on pages', 
+		'before_widget' => '<div class="widget-sidebar">', 
+		'after_widget' 	=> '</div>',
+		'before_title' 	=> '<h2>',
+		'after_title' 	=> '</h2>'						
+		));
+	/*-- Third Sidebar Widget --*/
+	register_sidebar( array(
+		'name' 			=> ('Third Widget'),
+		'id' 			=> 'third-widget',
+		'description' 	=> 'Widget for our sidebar on pages', 
+		'before_widget' => '<div class="widget-sidebar">', 
+		'after_widget' 	=> '</div>',
+		'before_title' 	=> '<h2>',
+		'after_title' 	=> '</h2>'						
+		));
+	/*-- Fourth Sidebar Widget --*/
+	register_sidebar( array(
+		'name' 			=> ('Fourth Widget'),
+		'id' 			=> 'fourth-widget',
 		'description' 	=> 'Widget for our sidebar on pages', 
 		'before_widget' => '<div class="widget-sidebar">', 
 		'after_widget' 	=> '</div>',
@@ -53,3 +83,19 @@ add_theme_support('menus');
 
 /*--- Enable Post Thumbnails ---*/
 add_theme_support( 'post-thumbnails' );
+
+/*--- Enqueue JQuery ---*/
+wp_deregister_script('jquery');
+wp_enqueue_script('jquery', 'http://code.jquery.com/jquery-latest.min.js','','',true);
+
+/*--- Enqueue Unslider ---*/
+function enqueue_unslider() {
+    wp_enqueue_script(                                // function to enqueue script
+    'unslider',                                       // name of our script (id)
+    get_template_directory_uri() . '/js/unslider.js', // file loc
+    array('jquery'),                                  // dependencies
+    '',                                               // version - left blank
+    true                                              // load in footer
+  );
+}
+add_action('wp_enqueue_scripts', 'enqueue_unslider');
