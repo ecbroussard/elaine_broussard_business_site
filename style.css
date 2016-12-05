@@ -27,6 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
 	font-size: 3.0rem;
+	font-family: 'Oswald', sans-serif;
 }
 
 h2 {
@@ -76,9 +77,14 @@ nav ul li a:hover {
 	color: #00adef;
 }
 
+img {
+	border: 1px solid black;
+}
+
 #slickslogo img {
 	margin-left: 25%;
 	margin-top: .5em;
+	border: none;
 }
 
 #promo1 {
@@ -133,4 +139,28 @@ nav ul li a:hover {
 	margin-left: 4em;
 	display: table;
 	border: 1px solid black;
+}
+
+.calltoaction {
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	background-color: #d93029;
+	text-transform: uppercase;
+	display: table;
+	border: solid 1px black;
+	padding: .5em;
+}
+
+#frontpage-middle {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+#frontpage-middle img {
+	margin-bottom: 1.5em;
+}
+
+#frontpage-middle h1 {
+	font-size: 1.7em;
+	letter-spacing: .2px;
 }
