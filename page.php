@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<!-- Begin Section Container -->
+<!-- begin skeleton grid container here -->
 <div class="container">
 	<section class="row">
 		<div class="eight columns page-content">
@@ -22,6 +22,6 @@
 		</div>
 	</section>
 </div>
-<!-- End Section Container-->
+<!-- end skeleton grid container here -->
 
 <?php get_footer(); ?>

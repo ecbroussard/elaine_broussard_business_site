@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<!-- Begin Section Container -->
+<!-- begin skeleton grid container here -->
 	<div class="container">
 		<section class="row">
 			<div class="eight columns">
@@ -27,8 +27,8 @@
 					} //end if
 				?>
 				<!-- Add the pagination functions here. -->
-				<div class="row">
-					<div class="twelve columns">
+				<div>
+					<div>
 						<div class="nav-previous alignleft pagination"><?php next_posts_link( 'Older posts -->>' ); ?></div>
 						<div class="nav-next alignright pagination"><?php previous_posts_link( '<<-- Newer posts' ); ?></div>
 					</div>
@@ -40,6 +40,6 @@
 			</div>
 		</section>
 	</div>
-	<!-- End Section Container-->
+<!-- end skeleton grid container -->
 
 <?php get_footer(); ?>

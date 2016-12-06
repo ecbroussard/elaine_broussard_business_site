@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
-<!-- Begin Section Container -->
-	<section class="row">
+<!-- 	begin slider section (slider section will be completely outside of grid)-->
+	<section>
 		<div class="my-slider">
 			<ul id="sliderpromo">
 				<li id="promo1">
@@ -22,7 +22,11 @@
 			</ul>
 		</div>
 	</section>
+<!-- 	end slider section -->
+
+<!-- 	begin skeleton container div (GRID STARTS HERE) -->
 	<div class="container">
+<!-- 		begin frontpage middle section -->
 		<section id="frontpage-middle" class="row">
 			<div class="four columns">
 				<img src="http://www.elainebroussard.com/slicksautobody/wp-content/uploads/2016/12/image-1.jpg" alt="qualified technicians" title="qualified technicians" width="295">
@@ -43,29 +47,40 @@
 				<p class="calltoaction"><a href="http://www.elainebroussard.com/slicksautobody/contact">Contact Us Today</a></p>
 			</div>
 		</section>
+<!-- 		end frontpage middle section -->
+
 	</div>
+<!-- 	end skeleton container div (GRID ENDS HERE) -->
+
+<!-- 	begin quoteform section (container and background color will be outside of grid) -->
 	<section  id="quoteform">
-		<div class="row">
-			<div class="four columns">
-				<h1>Get A Free Quote</h1>
-			</div>
-			<div class="eight columns">
-				<form method="post" action="http://www.elainebroussard.com/slicksautobody/wp-content/themes/elaine_broussard_business_site/contact-form.php">
-						<label for="Name">Name:</label>
-						<input type="text" name="Name" id="Name" />
-						<label for="Car">Car Make/Model:</label>
-						<input type="text" name="Car" id="Car" />
-						<label for="Email">Email:</label>
-						<input type="text" name="Email" id="Email" />
-						<label for="Year">Car Year:</label>
-						<input type="text" size="26" name="Year" id="Year" />
-						<label for="Message">Summary of Repairs Needed:</label><br />
-						<textarea name="Message" rows="4" cols="70" id="Message"></textarea>
-						<input type="submit" name="submit" value="Submit" class="submit-button" />
-				</form>
+
+<!-- 	begin skeleton container div here -->
+		<div class="container">
+			<div class="row">
+				<div class="four columns">
+					<h1>Get A Free Quote</h1>
+				</div>
+				<div class="eight columns">
+					<form method="post" action="http://www.elainebroussard.com/slicksautobody/wp-content/themes/elaine_broussard_business_site/contact-form.php">
+							<label for="Name">Name:</label>
+							<input type="text" name="Name" id="Name" />
+							<label for="Car">Car Make/Model:</label>
+							<input type="text" name="Car" id="Car" />
+							<label for="Email">Email:</label>
+							<input type="text" name="Email" id="Email" />
+							<label for="Year">Car Year:</label>
+							<input type="text" size="26" name="Year" id="Year" />
+							<label for="Message">Summary of Repairs Needed:</label><br />
+							<textarea name="Message" rows="4" cols="70" id="Message"></textarea>
+							<input type="submit" name="submit" value="Submit" class="submit-button" />
+					</form>
+				</div>
 			</div>
 		</div>
+<!-- 	end skeleton container div here -->
+
 	</section>
-<!-- End Section Container-->
+<!--  	end quoteform section -->
 
 <?php get_footer(); ?>
