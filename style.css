@@ -39,12 +39,20 @@ Text Domain: elaine_broussard_business_site
 
 /*blog page images*/
 
-.post-frame img { /*will need to write media queries here later*/
+.post-frame img {
+	width: 100%;
+	height: auto;
 }
 
 /*blog post images*/
-
 .post-page img {
+	width: 60%;
+	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.wp-post-image {
+	width: 100%;
+	height: auto;
 }
