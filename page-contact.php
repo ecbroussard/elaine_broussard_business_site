@@ -3,7 +3,7 @@
 <!-- begin skeleton grid container here -->
 <div class="container">
 	<section class="row">
-		<div class="eight columns page-content">
+		<div class="eight columns page-content page-contact">
 			<!-- Begin Loop -->
 			<?php
 				if ( have_posts() ) {
