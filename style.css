@@ -188,7 +188,7 @@ img {
 	text-transform: uppercase;
 	display: table;
 	border: solid .1rem black;
-	padding: .5rem;
+	padding: 1rem;
 	float: right;
 }
 
@@ -266,6 +266,9 @@ input[type=submit] {
 	margin-top: 1rem;
 	font-weight: 700;
 	font-size: 1.5rem;
+	line-height: 1.6;
+	height: auto;
+	padding: 1rem;
 }
 
 input[type=submit]:hover {
