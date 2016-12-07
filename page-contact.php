@@ -28,7 +28,7 @@
 						<label for="Year">Car Year:</label>
 						<input type="text" name="Year" id="Year" />
 						<label for="Message">Summary of Repairs Needed:</label><br />
-						<textarea name="Message" rows="4" cols="70" id="Message"></textarea>
+						<textarea name="Message" id="Message"></textarea>
 						<input type="submit" name="submit" value="Submit" class="submit-button" />
 				</form>
 			</div>

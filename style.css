@@ -56,3 +56,438 @@ Text Domain: elaine_broussard_business_site
 	width: 100%;
 	height: auto;
 }
+
+/*safe styles*/
+html, body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+}
+
+h1 {
+	font-size: 3.0rem;
+	font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+	font-size: 2.5rem;
+	font-family: 'Oswald', sans-serif;
+}
+
+h3 {
+	font-size: 2.0rem;
+	font-family: 'Oswald', sans-serif;
+}
+
+h4 {
+	font-size: 1.5rem;
+}
+
+h5 {
+	font-size: 1.2rem;
+}
+
+a {
+	font-weight: 700;
+	text-decoration: none;
+}
+
+header {
+	border: solid black .1rem;
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.my-slider {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	border: .1rem solid black;
+}
+
+nav ul {
+	list-style-type: none;
+	margin-top: 1.2rem;
+}
+
+nav ul li a {
+	color: black;
+}
+
+nav ul li a:hover {
+	color: #00adef;
+}
+
+img {
+	border: .1rem solid black;
+}
+
+#promo1 a, #promo2 a, #promo3 a, .calltoaction a {
+	color: white;
+}
+
+#promo1 a:hover, #promo2 a:hover, #promo3 a:hover, .calltoaction a:hover {
+	color: #00adef;
+}
+
+#sliderpromo h1 {
+	font-family: 'Kavoon', cursive;
+	color: white;
+	margin-top: 1rem;
+	margin-bottom: .4rem;
+	font-size: 4.0rem;
+	text-shadow: .2rem .2rem black;
+	letter-spacing: .1rem;
+	margin-left: 2rem;
+}
+
+#sliderpromo h2 {
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	margin-bottom: 1rem;
+	background-color: rgba(0,174,239,0.5);
+	font-weight: 200;
+	letter-spacing: .1rem;
+	line-height: 1.5;
+	padding-left: .5rem;
+	padding-right: .5rem;
+	padding-top: .25rem;
+	padding-bottom: .1rem;
+	margin-left: 3.2rem;
+	display: table;
+	border: .1rem solid #d93029;
+	font-style: italic;
+}
+
+.calltoaction {
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	background-color: #d93029;
+	text-transform: uppercase;
+	display: table;
+	border: solid .1rem black;
+	padding: .5rem;
+	float: right;
+}
+
+#frontpage-middle {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+#frontpage-middle img {
+	margin-bottom: 1.5rem;
+}
+
+#frontpage-middle h1 {
+	font-size: 1.7rem;
+	letter-spacing: .2rem;
+}
+
+#quoteform {
+	background-color: #aae0fa;
+	border: solid .1rem black;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#quoteform h1 {
+	text-transform: uppercase;
+	font-size: 3.5rem;
+	margin-left: 2rem;
+	margin-top: 2rem;
+}
+
+input, label { 
+	display: inline;
+}
+
+input {
+	margin-bottom: 2rem;
+	margin-right: 1rem;
+}
+
+form {
+	margin-top: 3rem;
+	width: 80%;
+}
+
+label {
+	margin-right: .3rem;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
+
+textarea, input[type=text], input[type=submit] {
+	border: .1em solid black;
+	border-radius: 0;
+}
+
+input[type=submit] {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	color: white;
+	background-color: #d93029;
+	font-weight: 400;
+	float: right;
+	margin-bottom: 2.5rem;
+	margin-top: 1rem;
+}
+
+input[type=submit]:hover {
+	color: #00adef;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 4rem;
+	padding-bottom: 2rem;
+}
+
+footer h3 {
+	font-family: 'Oswald', sans-serif;
+	font-style: italic;
+	text-transform: uppercase;
+	letter-spacing: .1rem;
+	font-size: 1.2rem;
+}
+
+footer ul {
+	list-style-type: none;
+}
+
+footer a {
+	color: white;
+}
+
+footer a:hover {
+	color: #00adef;
+}
+
+nav ul li {
+	display: inline;
+	padding: 1rem;
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.3rem;
+	text-transform: uppercase;
+}
+
+#slickslogo img {
+	margin-left: 25%;
+	margin-top: .5rem;
+	border: none;
+}
+
+#promo1 {
+	background-image: url(images/promo1.jpg);
+}
+
+#promo2 {
+	background-image: url(images/promo2.jpg);
+}
+
+#promo3 {
+	background-image: url(images/promo3.jpg);
+}
+
+#sliderpromo h3 {
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	text-transform: uppercase;
+	margin-bottom: 1rem;
+	background-color: #d93029;
+	letter-spacing: .1rem;
+	line-height: 1.5;
+	padding: .5rem;
+	margin-left: 4rem;
+	display: table;
+	border: .1rem solid black;
+}
+
+.textwidget li {
+	display: inline;
+	padding-right: 1rem;
+}
+
+.post-title {
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.3rem;
+	letter-spacing: .2rem;
+	text-align: center;
+	margin-top: .5rem;
+	margin-bottom: .75rem;
+}
+
+.post-title a {
+	color: black;
+}
+
+.post-title a:hover {
+	color: #d93029;
+}
+
+.widget-sidebar {
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+}
+
+.sidebar-content {
+	border: .1rem solid black;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	background-color: #aae0fa;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+}
+
+.post-frame {
+	margin-top: 3rem;
+	margin-bottom: 7rem;
+	border-top: .1rem solid black;
+}
+
+.sidebar-content h2 {
+	text-align: center;
+	font-family: 'Kavoon', cursive;
+	color: #d93029;
+	text-shadow: .2rem .2rem black;
+	letter-spacing: .1rem;
+	font-size: 2.2rem;
+
+}
+
+.sidebar-content ul {
+	list-style-type: none;
+}
+
+.sidebar-content a {
+	color: black;
+}
+
+.sidebar-content a:hover {
+	color: #d93029;
+}
+
+.tags a {
+	font-family: 'Kavoon', cursive;
+	color: #d93029;
+	padding: .5rem;	
+}
+
+.tags a:hover {
+	color: #00adef;
+}
+
+.morebutton {
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	background-color: #d93029;
+	text-transform: uppercase;
+	display: table;
+	border: solid .1rem black;
+	padding: .5rem;
+	float: right;
+}
+
+.post-frame img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2rem;
+}
+
+.pagination a {
+	display: inline-block;
+	font-family: 'Oswald', sans-serif;
+	color: black;
+	background-color: #aae0fa;
+	padding: .5rem;
+	margin-bottom: 1rem;
+	border: .1rem solid black;
+}
+
+.pagination a:hover {
+	color: #d93029;
+}
+
+.pagetitle {
+	text-align: center;
+	font-family: 'Kavoon', cursive;
+	color: black;
+	letter-spacing: .1rem;
+	font-size: 4rem;
+	margin-top: 1rem;
+}
+
+.page-content h3 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.3rem;
+	text-transform: uppercase;
+}
+
+.page-content {
+	margin-bottom: 1.5rem;
+}
+
+.wp-caption-text {
+	font-family: 'Oswald', sans-serif;	
+}
+
+#contactpageform {
+	margin-top: 3rem;
+}
+
+#contactpageform input {
+	display: block;
+}
+
+.archive-wrapper {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.archive-wrapper h2 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.3rem;
+	text-transform: uppercase;
+}
+
+.archive-wrapper a {
+	color: #d93029;
+}
+
+.archive-wrapper a:hover {
+	color: #00adef;
+}
+
+.post-page {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.post-page img {
+	margin-bottom: 3em;
+}
+
+.post-page h2 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.3rem;
+	letter-spacing: .2rem;
+	text-align: center;
+	margin-top: .5rem;
+	margin-bottom: .75rem;
+}
+
+.errorcontainer {
+	margin-top: 3rem;
+}
