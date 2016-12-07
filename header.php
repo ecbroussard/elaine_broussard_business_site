@@ -17,23 +17,18 @@
 
 			<div class="row">
 
-		<!-- 	begin slick's logo here -->
-				<div class="four columns" id="slickslogo">
-					<img src="http://www.elainebroussard.com/slicksautobody/wp-content/uploads/2016/12/slickslogo.png" alt="Slick's Auto Body logo" title="Slick's Auto Body" width="252">
-		    	</div>
-		<!--     end slick's logo -->
+				<div class="twelve columns">
+					<img id="slickslogo" src="http://www.elainebroussard.com/slicksautobody/wp-content/uploads/2016/12/slickslogo.png" alt="Slick's Auto Body logo" title="Slick's Auto Body" width="252">
 
-
-		<!-- 	begin navigation menu -->
-		    	<nav class="eight columns">
-						<?php 
-						wp_nav_menu(array(
-							'sort_column' => 'menu_order', 
-							'container_class' => 'blank-menu-header'
-						));
-					?>
-				</nav>
-		<!-- 	end navigation menu -->
+			    	<nav id="mainmenu">
+							<?php 
+							wp_nav_menu(array(
+								'sort_column' => 'menu_order', 
+								'container_class' => 'blank-menu-header'
+							));
+						?>
+					</nav>
+				</div>
 
 			</div>
 

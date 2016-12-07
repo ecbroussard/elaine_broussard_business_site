@@ -36,7 +36,7 @@ Text Domain: elaine_broussard_business_site
 .page-contact img {
 	width: 80%;
 }
-
+`
 /*blog page images*/
 
 .post-frame img {
@@ -96,8 +96,8 @@ a {
 
 header {
 	border: solid black .1rem;
-	padding-bottom: 1rem;
-	padding-top: 1rem;
+	padding-bottom: 2.5rem;
+	padding-top: 2.5rem;
 	width: 70%;
 	margin-left: auto;
 	margin-right: auto;
@@ -108,6 +108,10 @@ header {
 	margin-left: auto;
 	margin-right: auto;
 	border: .1rem solid black;
+}
+
+#mainmenu {
+	float: right;
 }
 
 nav ul {
@@ -121,6 +125,23 @@ nav ul li a {
 
 nav ul li a:hover {
 	color: #00adef;
+}
+
+nav ul li {
+	display: inline;
+	padding: 1rem;
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.3rem;
+	text-transform: uppercase;
+}
+
+#slickslogo {
+	width: 30%;
+	display: inline;
+	margin-top: .5rem;
+	margin-right: 1rem;
+	border: none;
+	float: left;
 }
 
 img {
@@ -138,30 +159,31 @@ img {
 #sliderpromo h1 {
 	font-family: 'Kavoon', cursive;
 	color: white;
-	margin-top: 1rem;
-	margin-bottom: .4rem;
-	font-size: 4.0rem;
+	margin-top: 5rem;
+	margin-bottom: 1rem;
+	font-size: 6.0rem;
 	text-shadow: .2rem .2rem black;
 	letter-spacing: .1rem;
-	margin-left: 2rem;
+	margin-left: 9rem;
 }
 
 #sliderpromo h2 {
 	font-family: 'Oswald', sans-serif;
 	color: white;
-	margin-bottom: 1rem;
+	margin-bottom: 2.5rem;
 	background-color: rgba(0,174,239,0.5);
 	font-weight: 200;
 	letter-spacing: .1rem;
 	line-height: 1.5;
-	padding-left: .5rem;
-	padding-right: .5rem;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
 	padding-top: .25rem;
-	padding-bottom: .1rem;
-	margin-left: 3.2rem;
+	padding-bottom: .25rem;
+	margin-left: 9rem;
 	display: table;
 	border: .1rem solid #d93029;
 	font-style: italic;
+	font-size: 3rem;
 }
 
 .calltoaction {
@@ -185,8 +207,8 @@ img {
 }
 
 #frontpage-middle h1 {
-	font-size: 1.7rem;
-	letter-spacing: .2rem;
+	font-size: 2.5rem;
+	letter-spacing: .05rem;
 }
 
 #quoteform {
@@ -199,9 +221,18 @@ img {
 
 #quoteform h1 {
 	text-transform: uppercase;
-	font-size: 3.5rem;
+	font-size: 5rem;
 	margin-left: 2rem;
-	margin-top: 2rem;
+	margin-top: 30%;
+	display: block;
+}
+
+#quoteform form {
+	width: 100%;
+}
+
+#quoteform textarea {
+	width: 100%;
 }
 
 input, label { 
@@ -238,6 +269,8 @@ input[type=submit] {
 	float: right;
 	margin-bottom: 2.5rem;
 	margin-top: 1rem;
+	font-weight: 700;
+	font-size: 1.5rem;
 }
 
 input[type=submit]:hover {
@@ -259,7 +292,7 @@ footer h3 {
 	font-style: italic;
 	text-transform: uppercase;
 	letter-spacing: .1rem;
-	font-size: 1.2rem;
+	font-size: 2rem;
 }
 
 footer ul {
@@ -274,42 +307,31 @@ footer a:hover {
 	color: #00adef;
 }
 
-nav ul li {
-	display: inline;
-	padding: 1rem;
-	font-family: 'Oswald', sans-serif;
-	font-size: 2.3rem;
-	text-transform: uppercase;
-}
-
-#slickslogo img {
-	margin-left: 25%;
-	margin-top: .5rem;
-	border: none;
-}
-
 #promo1 {
 	background-image: url(images/promo1.jpg);
+	background-size: cover;
 }
 
 #promo2 {
 	background-image: url(images/promo2.jpg);
+	background-size: cover;
 }
 
 #promo3 {
 	background-image: url(images/promo3.jpg);
+	background-size: cover;
 }
 
 #sliderpromo h3 {
 	font-family: 'Oswald', sans-serif;
 	color: white;
 	text-transform: uppercase;
-	margin-bottom: 1rem;
+	margin-bottom: 4rem;
 	background-color: #d93029;
 	letter-spacing: .1rem;
 	line-height: 1.5;
-	padding: .5rem;
-	margin-left: 4rem;
+	padding: 1rem;
+	margin-left: 9rem;
 	display: table;
 	border: .1rem solid black;
 }
@@ -321,11 +343,11 @@ nav ul li {
 
 .post-title {
 	font-family: 'Oswald', sans-serif;
-	font-size: 2.3rem;
+	font-size: 3rem;
 	letter-spacing: .2rem;
 	text-align: center;
-	margin-top: .5rem;
-	margin-bottom: .75rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
 }
 
 .post-title a {
@@ -352,7 +374,7 @@ nav ul li {
 
 .post-frame {
 	margin-top: 3rem;
-	margin-bottom: 7rem;
+	margin-bottom: 10rem;
 	border-top: .1rem solid black;
 }
 
@@ -420,13 +442,17 @@ nav ul li {
 	color: #d93029;
 }
 
+.pagination {
+	margin-bottom: 2rem;
+}
+
 .pagetitle {
 	text-align: center;
 	font-family: 'Kavoon', cursive;
 	color: black;
 	letter-spacing: .1rem;
 	font-size: 4rem;
-	margin-top: 1rem;
+	margin-top: 3rem;
 }
 
 .page-content h3 {
@@ -445,6 +471,10 @@ nav ul li {
 
 #contactpageform {
 	margin-top: 3rem;
+}
+
+#contactpageform input[type=submit] {
+	float: none;
 }
 
 #contactpageform input {
@@ -471,21 +501,21 @@ nav ul li {
 }
 
 .post-page {
-	margin-top: 2rem;
+	margin-top: 3rem;
 	margin-bottom: 2rem;
 }
 
 .post-page img {
-	margin-bottom: 3em;
+	margin-bottom: 3rem;
 }
 
 .post-page h2 {
 	font-family: 'Oswald', sans-serif;
-	font-size: 2.3rem;
+	font-size: 3rem;
 	letter-spacing: .2rem;
 	text-align: center;
 	margin-top: .5rem;
-	margin-bottom: .75rem;
+	margin-bottom: 3.5rem;
 }
 
 .errorcontainer {

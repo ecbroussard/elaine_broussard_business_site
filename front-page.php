@@ -71,6 +71,7 @@
 							<input type="text" name="Email" id="Email" />
 							<label for="Year">Car Year:</label>
 							<input type="text" name="Year" id="Year" />
+							<br>
 							<label for="Message">Summary of Repairs Needed:</label><br />
 							<textarea name="Message" id="Message"></textarea>
 							<input type="submit" name="submit" value="Submit" class="submit-button" />

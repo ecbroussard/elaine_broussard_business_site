@@ -29,6 +29,7 @@
 						<input type="text" name="Year" id="Year" />
 						<label for="Message">Summary of Repairs Needed:</label><br />
 						<textarea name="Message" id="Message"></textarea>
+						<br>
 						<input type="submit" name="submit" value="Submit" class="submit-button" />
 				</form>
 			</div>
